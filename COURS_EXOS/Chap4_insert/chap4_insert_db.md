@@ -134,13 +134,13 @@ WHERE name = 'Tom';
 UPDATE `pilots`
 SET `birth_date` = '2000-04-14 00:00:00',
  `next_flight` = '2020-06-11 12:00:52',
- `num_jobs` = 10
+ `num_jobs` = 50
 WHERE name = 'Yi';
 
 UPDATE `pilots`
 SET `birth_date` = '1978-10-17 00:00:00',
- `next_flight` = '2020-06-11 12:00:52',
- `num_jobs` = 50
+ `next_flight` = '2020-10-14 12:50:52',
+ `num_jobs` = 30
 WHERE name = 'Sophie';
 
 UPDATE `pilots`
@@ -151,7 +151,7 @@ WHERE name = 'Albert';
 
 UPDATE `pilots`
 SET `birth_date` = '1998-01-04 00:00:00',
- `next_flight` = '2020-05-08 12:50:52',
+ `next_flight` = '2020-04-04 12:50:52',
  `num_jobs` = 30
 WHERE name = 'Yan';
 
