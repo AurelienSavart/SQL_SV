@@ -132,8 +132,8 @@ SET `birth_date` = '1978-02-04 00:00:00',
 WHERE name = 'Tom';
 
 UPDATE `pilots`
-SET `birth_date` = '1978-02-04 00:00:00',
- `next_flight` = '2020-12-04 09:50:52',
+SET `birth_date` = '2000-04-14 00:00:00',
+ `next_flight` = '2020-06-11 12:00:52',
  `num_jobs` = 10
 WHERE name = 'Yi';
 
