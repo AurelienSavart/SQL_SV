@@ -95,7 +95,7 @@ start : offset,  length le nombre d'éléments du tableau.
 
 3. Sélectionnez les noms des pilotes de la compagnie FRE1 ayant fait plus de 20 heures de vol.
 
-4. Sélectionnez les noms des pilotes de la compagnie FRE1 ou AUST ayant fait plus de 20 de vols.
+4. Sélectionnez les noms des pilotes de la compagnie FRE1 ou AUS ayant fait plus de 20 de vols.
 
 5. Sélectionnez les noms des pilotes ayant fait entre 190 et 200 heures de vol.
 
