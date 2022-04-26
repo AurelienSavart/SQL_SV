@@ -77,7 +77,7 @@ Trouvez toutes les compagnies n'ayant pas de pilotes.
 
 - 5. Sélectionnez tous les pilotes dont le nombre d'heures de travail est inférieur à tous les nombres d'heures de travail de la compagnie CHI.
 
-- 6. Sélectionnez la longueur des noms des pilotes dont la longueur de leurs noms est inférieur à toutes les longueurs des noms de la compagny FRE1.
+- 6. Sélectionnez la longueur des noms des pilotes dont la longueur de leurs noms est inférieur à toutes les longueurs des noms de la compagnie FRE1.
 
 - 7. Sélectionnez les coordonnées des compagnies dont le nombre d'heures de vol est inférieur à tous les nombres d'heures de vol (chaque heure de vol) des A380.
 Ajoutez la colonne plane et les données suivantes dans la table pilotes.
