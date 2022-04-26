@@ -110,7 +110,7 @@ Une sous-requête fait des appels en boucle, il faudra donc faire attention à s
 Très souvent la sous-requête corrélée est utilisée avec un test d'existance : l'opérateur EXISTS :
 
 ```sql
-SELECT * FROM t1 WHERE column1 EXISTS
+SELECT * FROM t1 WHERE EXISTS
        (SELECT 1 FROM t2 WHERE t2.column2 = t1.column2);
 ```
 
