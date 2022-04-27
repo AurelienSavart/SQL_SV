@@ -20,3 +20,6 @@ INSERT INTO pilots (name, certificate, bonus, birth_date) VALUES ('Harry','ct-19
 
 /* Sélection de tous les pilotes avec ou sans compagnie */
 SELECT c.name AS company_name, p.certificate AS certificate, p.name AS pilot_name FROM pilots AS p LEFT OUTER JOIN companies AS c on c.comp=p.company; 
+
+/*Union */
+(SELECT c.name AS company_name, p.certificate AS certificate, p.name AS pilot_name FROM pilots AS p LEFT OUTER JOIN companies AS c on c.comp=p.company) UNION (SELECT c.name AS company_name, p.certificate AS certificate, p.name AS pilot_name FROM pilots AS p RIGHT OUTER JOIN companies AS c on c.comp=p.company); 
