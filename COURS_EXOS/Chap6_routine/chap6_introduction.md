@@ -1,4 +1,4 @@
-# Procdures stockées (stored procedure )
+# Procédures stockées (stored procedure )
 
 Lorsque vous avez une requête qui doit-être exécutée plusieurs fois par jour par différents utilisateurs, vous pouvez utiliser une procédure stockée. La notion de procédure stockée équivaut à la notion de fonction dans d'autres langages.
 
