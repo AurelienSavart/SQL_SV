@@ -11,7 +11,7 @@ Pour créer une clef étrangère on doit :
 
 - Choisir la ou les colonnes FOREIGN KEY
 
-- Choisir dans l'autre table la ou les colonnes qui va/vont servir de référence(s), REFRENCES.
+- Choisir dans l'autre table la ou les colonnes qui va/vont servir de référence(s), REFERENCES.
 La clef étrangère ne peut s'ajouter dans la description d'une colonne, on met sa définition en générale en-dessous de la clef primaire.
 
 ## Contraintes à connaître sur les tables
