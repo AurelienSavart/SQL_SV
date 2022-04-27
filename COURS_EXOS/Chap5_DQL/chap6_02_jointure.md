@@ -8,7 +8,7 @@ Les jointures permettent d'extraire des données de plusieurs tables, dans le mo
 
 Une jointure met en relation deux tables sur la base d'une clause de jointure (comparaison de colonne). Généralement, cette comparaison fait intervenir une clé étrangère d'une table avec une clé primaire d'une autre table. FK=PK, qui sont en particulier des indexes donc la requête s'effectue plus vite...
 
-## Le jointures interne (INNER JOIN )
+## Les jointures interne (INNER JOIN )
 
 Equijointure dans la clause de jointure on utilise "="
 Auto-jointure : une équijointure sur la même table (on doit utiliser des alias pour distinguer les deux mêmes tables)
