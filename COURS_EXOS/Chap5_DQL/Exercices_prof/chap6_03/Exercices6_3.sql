@@ -13,4 +13,10 @@ SELECT name FROM pilots WHERE lead_pl IS NULL;
 SELECT p.certificate, c.name FROM pilots as p INNER JOIN companies as c ON p.company = c.comp; 
 
 /* Heures de vol des pilots de Austra air */
-SELECT SUM(p.num_flying), p.`company` FROM `pilots` as p INNER JOIN companies ON p.company = compagnies.comp WHERE companies.name = 'AUSTRA Air'; 
+SELECT SUM(p.num_flying), p.`company` FROM `pilots` as p INNER JOIN companies ON p.company = compagnies.comp WHERE companies.name = 'AUSTRA Air';
+
+/* Insertion de harry */
+INSERT INTO pilots (name, certificate, bonus, birth_date) VALUES ('Harry','ct-19', 100, '2000-01-01 12:00:00' );
+
+/* Sélection de tous les pilotes avec ou sans compagnie */
+SELECT c.name AS company_name, p.certificate AS certificate, p.name AS pilot_name FROM pilots AS p LEFT OUTER JOIN companies AS c on c.comp=p.company; 
