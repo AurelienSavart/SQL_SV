@@ -1,3 +1,5 @@
+/* Ajout de salary */
+ALTER TABLE `pilots` ADD `salary` SMALLINT UNSIGNED NOT NULL AFTER `lead_pl`;
 
 /*
 ## Exercice 
